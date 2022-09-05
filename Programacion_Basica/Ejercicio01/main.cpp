@@ -2,19 +2,23 @@
 
 using namespace std;
 
-const string margen = "=============";
+const char separador[] = "1234";
 
-void nuevoTema(string tema) {
-    cout << margen << " ";
+
+void nuevoTema(char tema[]) {
+    
+    cout << separador << " ";
     cout << tema;
-    cout << " " << margen;
+    cout << " " << separador;
     cout << endl;
 }
 
 
 int main() {
 
+    
     int edad;
+    unsigned int numeroSinSigno;
     long numeroEnteroLargo;
     float numeroReal;
     
@@ -23,11 +27,31 @@ int main() {
     char caracter;
     
     
+    
     nuevoTema("Variables");
     edad = 23;
-    cout << "edad: " << edad << endl;
+    numeroSinSigno = 0;
     
+//    cout << "Número entero-- edad: " << edad << endl;
+    
+    cout << "23 < 45 : " << (23 > 45) << endl;
+    cout << "23 == 34 : " << (23 == 34) << endl;
 
+    numeroSinSigno = numeroSinSigno - 1;
+    cout << numeroSinSigno << endl;
+    
+    cout << sizeof(edad) << endl;
+    cout << sizeof(separador) << endl;
+    
+    caracter = 'A';
+    
+    cout << caracter << endl;
+    cout << separador[4] << endl;
+    
+    cout << sizeof(numeroEnteroLargo) << endl;
+    cout << sizeof(numeroReal) << endl;
+    cout << sizeof(numeroRealDoble) << endl;
+    cout << sizeof(genero) << endl;
     
     return 0;
     

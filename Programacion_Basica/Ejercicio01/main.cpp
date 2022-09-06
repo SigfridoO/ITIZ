@@ -1,59 +1,32 @@
-#include <iostream>
+#include<iostream>
 
 using namespace std;
 
-const char separador[] = "1234";
 
-
-void nuevoTema(char tema[]) {
-    
-    cout << separador << " ";
-    cout << tema;
-    cout << " " << separador;
-    cout << endl;
+void nuevoTema (char tema[]) {
+    //std::cout << "========== nuevo tema ==========" << std::endl;
+    cout << "========== " << tema <<" ==========" << endl;
 }
 
 
 int main() {
-
+    nuevoTema("variables");
     
     int edad;
-    unsigned int numeroSinSigno;
-    long numeroEnteroLargo;
-    float numeroReal;
-    
-    double numeroRealDoble;
-    bool genero;
+    float temperatura;
     char caracter;
+    char nombre[] = "Yahir";
     
-    
-    
-    nuevoTema("Variables");
-    edad = 23;
-    numeroSinSigno = 0;
-    
-//    cout << "Número entero-- edad: " << edad << endl;
-    
-    cout << "23 < 45 : " << (23 > 45) << endl;
-    cout << "23 == 34 : " << (23 == 34) << endl;
-
-    numeroSinSigno = numeroSinSigno - 1;
-    cout << numeroSinSigno << endl;
-    
-    cout << sizeof(edad) << endl;
-    cout << sizeof(separador) << endl;
-    
+    edad = 21.5;
+    temperatura = 21.12;
     caracter = 'A';
     
-    cout << caracter << endl;
-    cout << separador[4] << endl;
     
-    cout << sizeof(numeroEnteroLargo) << endl;
-    cout << sizeof(numeroReal) << endl;
-    cout << sizeof(numeroRealDoble) << endl;
-    cout << sizeof(genero) << endl;
+    cout << "edad: " << edad <<endl;
+    cout << "temperatura : " << temperatura << endl;
+    cout << "caracter: "  << caracter << endl;
+    cout << "nombre: "  << nombre << endl;
     
-    return 0;
-    
-}
 
+    return 0;
+}

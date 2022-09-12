@@ -42,6 +42,45 @@ int main() {
     cout<< "3 <= 3" << " : " << (3 <= 3)  << endl;
     cout<< "3 >= 4" << " : " << (3 >= 4)  << endl;
     
+    nuevoTema("postincremento");
+    
+    int d;
+    
+    d = 3;
+    //cout<< "d= " << d <<endl;
+    //d = d + 1;
+    
+    cout<< "d= " << d <<endl;
+    cout << "d= " << d++ << endl;
+    cout<< "d= " << d <<endl;
+    
+    
+    nuevoTema("pretincremento");
+    
+    
+    cout<< "d= " << d <<endl;
+    cout << "d= " << ++d << endl;
+    cout<< "d= " << d <<endl;
 
+    
+    nuevoTema("instrucciones de control if-else");
+    int x;
+    
+    x = 10;
+    
+    if (8 < x) {
+        cout << "x es mayor a 8" << endl;
+        if (x < 16 ) {
+            cout << "x es menor a 16" << endl;
+        } else {
+            cout << "x NO es menor a 16" << endl;
+        }
+        
+        
+    } else {
+        cout << "NO es mayor a 8" << endl;
+    }
+    
+    nuevoTema("if-else-anidados");
     return 0;
 }

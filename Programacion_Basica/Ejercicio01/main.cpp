@@ -31,6 +31,17 @@ int main() {
     cout << "caracter: "  << caracter << endl;
     cout << "nombre: "  << nombre << endl;
     cout << "tieneAuto: "  << tieneAuto << endl;
+
+    
+    nuevoTema("comparación");
+    
+    cout<< "3 < 5" << " : " << (3 < 5)  << endl;
+    cout<< "3 > 5" << " : " << (3 > 5)  << endl;
+    cout<< "3 == 5" << " : " << (3 == 5)  << endl;
+    
+    cout<< "3 <= 3" << " : " << (3 <= 3)  << endl;
+    cout<< "3 >= 4" << " : " << (3 >= 4)  << endl;
+
     
     
     nuevoTema("comparación");

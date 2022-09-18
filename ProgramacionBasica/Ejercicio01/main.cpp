@@ -93,16 +93,59 @@ int main() {
         cout << "NO es mayor a 8" << endl;
     }
     
-    nuevoTema("if-else-anidados");
+//    nuevoTema("if-else-anidados");
 
     
     nuevoTema("Instrucciones de control for");
     
     for (int i = 0; i < 20; i++) {
+        cout<<"Dentro de for" << endl;
         cout<< "i= " << i << endl;
     }
             
 
+    nuevoTema("Instrucciones de control while");
+    
+    int contador = 0;
+    
+    while (contador <= 20) {
+        cout<< "Dentro de while" << endl;
+        cout<< "El valor de contador es " << contador << endl;
+        contador++;
+    }
+    
+    nuevoTema("Instrucciones control do-while");
+    
+    contador = 21;
+    
+    do{
+        cout<< "Dentro de do-while"<< endl;
+        cout<< "El valor de contador es " << contador << endl;
+        contador++;
+    }while(contador <= 20);
+            
+            
+    nuevoTema("Lectura de un valor del teclado");
+    int numero2;
+            
+    cout << "Ingresa un número: ";
+    cin >> numero2;
+    cout << "El número ingresado es: " << numero2;
+            
+    
+    nuevoTema("Suma de dos números");
+    
+    int numeroA;
+    int numeroB;
+    int suma;
+    
+    cout<< "Ingresa el primer número: " ;
+    cin >> numeroA;
+    cout<< "Ingresa el segundo número: ";
+    cin >> numeroB;
+    
+    suma = numeroA + numeroB;
+    cout << "La suma de los números es: " << suma << endl;
     
     return 0;
 }

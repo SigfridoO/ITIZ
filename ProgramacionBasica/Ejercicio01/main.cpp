@@ -10,6 +10,7 @@ void nuevoTema (char tema[]) {
 
 
 int main() {
+
     nuevoTema("variables");
     
     int entoreoConSigno;
@@ -93,5 +94,15 @@ int main() {
     }
     
     nuevoTema("if-else-anidados");
+
+    
+    nuevoTema("Instrucciones de control for");
+    
+    for (int i = 0; i < 20; i++) {
+        cout<< "i= " << i << endl;
+    }
+            
+
+    
     return 0;
 }

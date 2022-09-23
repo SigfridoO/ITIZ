@@ -62,5 +62,36 @@ int main() {
     }
     
     
+    nuevoTema("switch");
+    
+    int opcion;
+    
+    opcion = 100;
+    
+    switch(opcion) {
+        case 0:
+            
+            cout << "Se eligió la opción 0" << endl;
+            break;
+            
+        case 1:
+            
+            cout << "Se eligió la opción 1" << endl;
+            break;
+            
+        case 2:
+            cout << "Se eligió la opción 2" << endl;
+            break;
+            
+        default:
+            cout << "Se eligió la opción default" << endl;
+            break;
+    }
+    
+    
+    
+    
+    
+    
     return 0;
 }

@@ -124,7 +124,6 @@ int main() {
         contador++;
     }while(contador <= 20);
             
-            --------------------
     nuevoTema("Lectura de un valor del teclado");
     int numero2;
             

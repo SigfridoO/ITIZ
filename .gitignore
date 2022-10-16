@@ -115,7 +115,7 @@ nbbuild/
 nbdist/
 nbactions.xml
 nb-configuration.xml
-
+private.xml
 
 ##############################
 ## IntelliJ

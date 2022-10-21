@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-Linux
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Linux
-CND_ARTIFACT_NAME_Debug=arreglos
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/arreglos
+CND_ARTIFACT_NAME_Debug=ordenamiento
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/ordenamiento
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux/package
-CND_PACKAGE_NAME_Debug=arreglos.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/arreglos.tar
+CND_PACKAGE_NAME_Debug=ordenamiento.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/ordenamiento.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-Linux
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux
-CND_ARTIFACT_NAME_Release=arreglos
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/arreglos
+CND_ARTIFACT_NAME_Release=ordenamiento
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/ordenamiento
 CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux/package
-CND_PACKAGE_NAME_Release=arreglos.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/arreglos.tar
+CND_PACKAGE_NAME_Release=ordenamiento.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/ordenamiento.tar
 #
 # include compiler specific variables
 #
